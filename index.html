@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Referrer-Policy" content="no-referrer-when-downgrade">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvi's Portfolio</title>
+    <!-- ===== META TAGS FOR SEO & SECURITY ===== -->
+    <meta name="description" content="Anvi Patel | Graphic Designer Portfolio – Explore creative branding, UI/UX, and campaign design projects.">
+    <meta name="keywords" content="Graphic Design, Branding, UI/UX, Portfolio, Logo Design, Figma, Adobe Photoshop, Creative Designer, Ahmedabad">
+    <meta name="author" content="Anvi Patel">
+
+    <!-- Open Graph (for LinkedIn, Facebook) -->
+    <meta property="og:title" content="Anvi Patel | Graphic Designer Portfolio">
+    <meta property="og:description" content="Creative designer specializing in branding, UI/UX, and social media design. View full portfolio.">
+    <!-- <meta property="og:image" content="https://anvi2210.github.io/portfolio/Assets/social-preview.jpg">  -->
+    <meta property="og:url" content="https://anvi2210.github.io/portfolio">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anvi Patel | Graphic Designer Portfolio">
+    <meta name="twitter:description" content="Creative designer specializing in branding, UI/UX, and social media design.">
+    <!-- <meta name="twitter:image" content="https://anvi2210.github.io/portfolio/Assets/social-preview.jpg"> -->
+
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Referrer-Policy" content="no-referrer-when-downgrade">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./Assets/favicon.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+<body bgcolor="#070707">
+
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="intro-logo">A</span>
+            <span class="intro-logo">N</span>
+            <span class="intro-logo">V</span>
+            <span class="intro-logo">I</span>
+        </h1>
+    </div>
+
+    <nav id="desktop-nav" class="bgcolor">
+        <div class="logo"><img src="./Assets/Anvi_sign1.png"
+            alt="Anvi" onclick="location.href='./#profile'">
+        </div>
+        <div>
+            <ul class="nav-links top-nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#all-projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Anvi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links" onclick="togglemenu()">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="home-pic"
+            src="./Assets/anvi.jpg" alt="Anvi Patel">
+        </div>
+        <div class="section__text" class="show">
+            <p class="section__text__p1">Hello there, I'm</p>
+            <h1 class="title">Anvi Patel</h1>
+            <p class="section__text__p2">Graphic Designer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./Assets/Anvi Resume General.pdf')"
+                >
+                My Resume
+                </button>
+                <button class="btn btn-color-1"
+                onclick="location.href='./#contact'">
+                Get in touch
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src='./Assets/linkedin.png' alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/anvipatel/'">
+                <!-- <img src='./Assets/insta.png' alt="My Instagram Handle"
+                class="icon" onclick="location.href='https://www.instagram.com/bhavyeahhh_/'"> -->
+                </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text">Get To Know</p>
+        <h1 class="title2">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Assets/anvi.jpg"
+                alt="Anvi Patel Profile Picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png"
+                        alt="experience icon" class="icon">
+                        <h3 class="about-headings">Experience</h3>
+                        <p><b>1+ years</b><br>Graphic Designing</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/graduation.png"
+                        alt="education icon" class="icon">
+                        <h3 class="about-headings">Education</h3>
+                        <p><b>Silver Oak University</b>
+                        <br>B.Tech - Computer Engineering<br>
+                        2021-2024</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Creative Graphic Designer with experience in producing digital and print designs across social media, blogs, websites, emails, e-books, and online ads. Proficient in Figma and Adobe Creative Suite (Photoshop, Illustrator, InDesign). Strong collaborator with content and marketing teams to deliver compelling, on-brand visual assets. Skilled in managing multiple projects, ensuring consistency, and staying ahead of design trends.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text">Have a look at my</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+                <div class="sk-details-container">
+                    <h2 class="skills-subtitle">Graphic Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Illustrator</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Photoshop</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- <h2 class="skills-subtitle">Video Editing</h2> -->
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe InDesign</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>CorelDRAW</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>           
+                </div>
+        </div>
+    </section>
+
+    <section id="all-projects">
+        <p class="section__text">Explore My</p>
+        <h1 class="title">Creative Work</h1>
+
+  <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="social">Social Media</button>
+            <button class="filter-btn" data-filter="logos">Logos</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+            <button class="filter-btn" data-filter="campaigns">Campaigns</button>
+            <button class="filter-btn" data-filter="blogs">Blogs</button>
+            <button class="filter-btn" data-filter="carousel">Carousel Posts</button>
+        </div>
+
+    <!-- Work Grid -->
+        <div class="work-list">
+
+        <!-- Social Media -->
+        <div class="work social">
+            <img src="./Assets/social1.jpg" alt="Social Media Post 1">
+            <div class="layer"><h3>Made in Illustrator</h3></div>
+        </div>
+        
+        <div class="work social">
+            <img src="./Assets/social2.jpg" alt="Social Media Post 2">
+            <div class="layer"><h3>Made in Illustrator</h3></div>
+        </div>
+        
+        <div class="work social">
+            <img src="./Assets/social3.jpg" alt="Social Media Post 2">
+            <div class="layer"><h3>Made in Illustrator</h3></div>
+        </div>
+        
+        <div class="work social">
+            <img src="./Assets/social4.jpg" alt="Social Media Post 2">
+            <div class="layer"><h3>Made in Illustrator</h3></div>
+        </div>
+        
+        <div class="work social">
+            <img src="./Assets/social5.jpg" alt="Social Media Post 2">
+            <div class="layer"><h3>Made in Illustrator</h3></div>
+        </div>
+        
+        <div class="work social">
+            <img src="./Assets/social6.jpg" alt="Social Media Post 2">
+            <div class="layer"><h3>Made in Photoshop</h3></div>
+        </div>
+        
+        <div class="work social">
+            <img src="./Assets/social7.jpg" alt="Social Media Post 2">
+            <div class="layer"><h3>Made in Photoshop</h3></div>
+        </div>
+        
+        <div class="work social">
+            <img src="./Assets/social8.jpg" alt="Social Media Post 2">
+            <div class="layer"><h3>Made in Illustrator</h3></div>
+        </div>
+        
+        <div class="work social">
+            <img src="./Assets/social9.jpg" alt="Social Media Post 2">
+            <div class="layer"><h3>Made in Photoshop</h3></div>
+        </div>
+
+        <!-- Logos -->
+        <div class="work logos">
+            <img src="./Assets/logo1.jpg" alt="Logo Design">
+            <div class="layer"><h3>Company Logo Design</h3></div>
+        </div>
+        
+        <div class="work logos">
+            <img src="./Assets/logo2.jpg" alt="Personal Logo">
+            <div class="layer"><h3>Company Logo Design</h3></div>
+        </div>
+
+        <!-- Branding -->
+        <div class="work branding">
+            <a href="./Assets/Brandguideline1.pdf" target="_blank">
+                <img src="./Assets/brandguideline1.png" alt="Branding Guide">
+                <div class="layer"><h3>Branding Guidelines (PDF)</h3></div>
+            </a>
+        </div>
+
+        <!-- Campaigns -->
+        <div class="work campaigns">
+            <img src="./Assets/campaign1.jpg" alt="Campaign Poster">
+            <div class="layer"><h3>Advertising Campaign Poster</h3></div>
+        </div>
+
+        <!-- Blogs -->
+        <div class="work blogs">
+            <img src="./Assets/blog1.jpg" alt="Blog Banner">
+            <div class="layer"><h3>Blog Banner Visual</h3></div>
+        </div>
+        <div class="work blogs">
+            <img src="./Assets/blog2.jpg" alt="Blog Banner">
+            <div class="layer"><h3>Blog Banner Visual</h3></div>
+        </div>
+        <div class="work blogs">
+            <img src="./Assets/blog3.jpg" alt="Blog Banner">
+            <div class="layer"><h3>Blog Banner Visual</h3></div>
+        </div>
+        <div class="work blogs">
+            <img src="./Assets/blog4.jpg" alt="Blog Banner">
+            <div class="layer"><h3>Blog Banner Visual</h3></div>
+        </div>
+
+        <!-- Carousel Post -->
+        <div class="work carousel" data-carousel="carousel1">
+          <img src="./Assets/carousel1_1.jpg" alt="Carousel Post 1">
+          <div class="layer"><h3>Instagram Carousel Post</h3></div>
+        </div>
+
+        <div class="work carousel" data-carousel="carousel1">
+          <img src="./Assets/carousel1_2.jpg" alt="Carousel Post 1 - Slide 2">
+        </div>
+
+        <div class="work carousel" data-carousel="carousel1">
+          <img src="./Assets/carousel1_3.jpg" alt="Carousel Post 1 - Slide 3">
+        </div>
+
+        <div class="work carousel" data-carousel="carousel1">
+          <img src="./Assets/carousel1_4.jpg" alt="Carousel Post 1 - Slide 4">
+        </div>
+
+        <div class="work carousel" data-carousel="carousel1">
+          <img src="./Assets/carousel1_5.jpg" alt="Carousel Post 1 - Slide 5">
+        </div>
+
+        <div class="work carousel" data-carousel="carousel1">
+          <img src="./Assets/carousel1_6.jpg" alt="Carousel Post 1 - Slide 6">
+        </div>
+
+
+  </div>
+</section>
+
+    <section id="contact">
+        <p class="section__text" style="padding-bottom: 0.3rem;">Get In Touch</p>
+        <h1 class="title" style="font-weight: 600;">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <a href="patelanvi2002@gmail.com">
+                    <img src="./Assets/email.png" alt="Email icon"
+                    class="icon contact-icon">
+                    <p>patelanvi2002@gmail.com</p>
+                </a>
+            </div>
+            <div class="contact-info-container">
+            <a href="https://www.linkedin.com/in/anvipatel/">
+                <img src="./Assets/linkedin.png" alt="LinkedIn" 
+                class="icon contact-icon">
+                <p>Connect with me on LinkedIn</p>
+            </a>
+            </div>
+            <!-- <div class="contact-info-container">
+            <a href="https://www.instagram.com/bhavyeahhh_/">
+                <img src='./Assets/insta.png' alt="My Instagram Handle" 
+                class="icon contact-icon">
+                <p>DM me on Instagram</p>
+            </a>
+            </div> -->
+        </div>
+        <div class="logo"><img src="./Assets/Anvi_sign1.png"
+            alt="Anvi" onclick="location.href='./#profile'">
+        </div> 
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container2">
+                <ul class="nav-links footer-nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav><br>
+        <p>Copyright &#169; 2025 Anvi Patel. All Rights Resereved.</p>
+    </footer>
+
+
+  <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" src="" alt="">
+        <div class="lightbox-caption"></div>
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+    </div>
+
+<script defer src="script.js"></script>
+</body>
+</html>
